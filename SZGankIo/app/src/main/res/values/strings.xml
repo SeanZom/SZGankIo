@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SZGankIo</string>
+
+
+    <string name="tl_main">Gank.io</string>
+    <string name="tl_search">Enter something…</string>
+
+
+
+    <!-- Array start-->
+
+    <string-array name="tab_title">
+        <item>Android</item>
+        <item>iOS</item>
+        <item>前端</item>
+    </string-array>
+
+    <!-- Array end-->
+</resources>
