@@ -23,7 +23,7 @@ public class MainPageViewPagerAdapter extends FragmentPagerAdapter{
 
     @Override
     public Fragment getItem(int position) {
-        return MainPageFragment.newInstance();
+        return MainPageFragment.newInstance(position);
     }
 
     @Override
