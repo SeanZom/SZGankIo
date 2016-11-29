@@ -1,4 +1,4 @@
-package com.demo.zhuwx.szgankio.basic;
+package com.demo.zhuwx.szgankio.base;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -14,9 +14,11 @@ import android.support.v7.widget.Toolbar;
 
 public abstract class BaseActivity extends AppCompatActivity{
 
+
     protected abstract int getLayoutId();
 
     protected abstract int getToolbarId();
+
 
     protected abstract void initView();
 
@@ -30,4 +32,5 @@ public abstract class BaseActivity extends AppCompatActivity{
 
         initView();
     }
+
 }

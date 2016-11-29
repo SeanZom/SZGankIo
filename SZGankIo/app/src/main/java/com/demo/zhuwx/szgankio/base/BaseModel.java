@@ -1,4 +1,4 @@
-package com.demo.zhuwx.szgankio.basic;
+package com.demo.zhuwx.szgankio.base;
 
 /**
  * @author Sean Zhu

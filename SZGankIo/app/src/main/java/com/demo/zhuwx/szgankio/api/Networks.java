@@ -91,7 +91,7 @@ public class Networks {
                 Charset UTF8 = Charset.forName("UTF-8");
                 Logger.d("=REQUEST URL=\n" + request.toString());
                 Logger.json(buffer.clone().readString(UTF8));
-                return null;
+                return response;
             }
         };
 

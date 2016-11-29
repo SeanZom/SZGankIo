@@ -6,8 +6,7 @@
     <dimen name="parent_distance_default">16dp</dimen>
     <dimen name="texts_margin">8dp</dimen>
     <dimen name="list_pic_item">188dp</dimen>
-
-
+    <dimen name="list_text_inside_item">74dp</dimen>
 
 
     <!-- Typography -->

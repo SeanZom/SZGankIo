@@ -1,4 +1,4 @@
-package com.demo.zhuwx.szgankio.basic;
+package com.demo.zhuwx.szgankio.base;
 
 /**
  * @author Sean Zhu
@@ -7,7 +7,9 @@ package com.demo.zhuwx.szgankio.basic;
  *         Description :
  */
 
-public interface BasePresenter<T extends BaseView> {
+public interface BasePresenter {
 
-    void attachView(T view);
+    void onResume();
+
+    void onDestroy();
 }

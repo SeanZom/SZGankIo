@@ -6,7 +6,6 @@
     <string name="tl_search">Enter something…</string>
 
 
-
     <!-- Array start-->
 
     <string-array name="tab_title">
@@ -16,4 +15,7 @@
     </string-array>
 
     <!-- Array end-->
+
+
+
 </resources>

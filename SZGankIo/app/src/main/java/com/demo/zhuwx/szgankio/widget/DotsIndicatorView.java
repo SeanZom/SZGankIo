@@ -11,7 +11,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import com.demo.zhuwx.szgankio.R;
-import com.demo.zhuwx.szgankio.util.ResUtil;
+import com.demo.zhuwx.szgankio.utils.ResUtil;
 
 import java.util.ArrayList;
 import java.util.List;

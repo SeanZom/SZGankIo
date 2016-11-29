@@ -1,4 +1,4 @@
-package com.demo.zhuwx.szgankio.basic;
+package com.demo.zhuwx.szgankio.base;
 
 /**
  * @author Sean Zhu
@@ -8,4 +8,8 @@ package com.demo.zhuwx.szgankio.basic;
  */
 
 public interface BaseView {
+
+    void toast(String msg);
+    void startLoading();
+    void endLoading();
 }

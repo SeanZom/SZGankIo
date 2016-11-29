@@ -1,8 +1,12 @@
-package com.demo.zhuwx.szgankio.mainpage;
+package com.demo.zhuwx.szgankio.mainpage.ui.adapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+
+import com.demo.zhuwx.szgankio.mainpage.ui.TopicListFragment;
+
+import java.util.List;
 
 /**
  * @author Sean Zhu
@@ -14,25 +18,28 @@ import android.support.v4.app.FragmentPagerAdapter;
 public class MainPageViewPagerAdapter extends FragmentPagerAdapter{
 
 
+    private List<TopicListFragment> mFragments;
     private String[] mTabTitles;
 
-    public MainPageViewPagerAdapter(FragmentManager fm, String[] tabTitles) {
+    public MainPageViewPagerAdapter(FragmentManager fm, List<TopicListFragment> fragments, String[]tabTitles) {
         super(fm);
+        mFragments = fragments;
         this.mTabTitles = tabTitles;
     }
 
     @Override
     public Fragment getItem(int position) {
-        return MainPageFragment.newInstance(position);
+        return mFragments.get(position);
     }
 
     @Override
     public int getCount() {
-        return mTabTitles.length;
+        return mFragments == null ? 0 : mFragments.size();
     }
 
     @Override
     public CharSequence getPageTitle(int position) {
         return mTabTitles[position];
     }
+
 }
